@@ -1,25 +1,29 @@
 body {
-    color: white;
-    text-align: center;
-    height: 100%;
-    width: auto;
-    margin: 0px;
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: auto;
+  margin:0px;
 }
 header {
   background-image: url(img/ciudad.jpg);
+  background-position: center;
   height: 100px;
   width: 100%;
-  background-position: center;
-  display: table;
+  margin-top: -27px;
 }
 .tarjeta {
   height: auto;
   width: auto;
-  background: rgb(2,0,36);
-  background: linear-gradient(149deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  box-shadow: 10px 5px 5px rgb(134, 134, 134);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    149deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   border-radius: 20px;
-  backdrop-filter: blur(16px) saturate(90%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
   position: relative;
   padding: 0% 2% 2% 2%;
   display: inline-block;
@@ -31,8 +35,13 @@ header {
 .form {
   height: auto;
   width: 30%;
-  background: rgb(7,85,1);
-  background: linear-gradient(149deg, rgba(7,85,1,1) 0%, rgba(21,121,9,1) 35%, rgba(0,255,218,1) 100%);
+  background: rgb(7, 85, 1);
+  background: linear-gradient(
+    149deg,
+    rgba(7, 85, 1, 1) 0%,
+    rgba(21, 121, 9, 1) 35%,
+    rgba(0, 255, 218, 1) 100%
+  );
   border-radius: 10px;
   border-color: lightcoral;
   border-style: solid;
@@ -44,9 +53,9 @@ header {
   height: 100px;
 }
 p {
-  font-family: 'Alegreya SC', serif;
-  color:black;
-  font-size:3ex;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 3ex;
 }
 li {
   color: rgb(255, 255, 255);
@@ -55,27 +64,27 @@ li {
 }
 h4 {
   color: rgb(255, 255, 255);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-a:hover, a:link {
-    color: rgb(255, 255, 255);
+a:hover,
+a:link {
+  color: rgb(255, 255, 255);
 }
 h1 {
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-    display: table-cell;
-    vertical-align: middle;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 h5 {
-  color:slategrey;
-  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
-}
-#destacado {
-  color:black;
 }
 input:focus {
   color: lightcoral;
+}
+#destacado {
+  color: black;
 }
